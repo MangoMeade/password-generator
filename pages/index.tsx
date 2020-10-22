@@ -247,9 +247,9 @@ export default function Home() {
           </div>
           <div className="container mx-auto my-5 justify-between flex font-bold">
             <div className="justify-evenly">
-              <p className="mx-1">Numero de palabras: {state.wordCount}</p>
+              <p className="mx-1">Numero de palabras:</p>
               <p className="mx-1">
-                Numero de caracteres: {state.charactersCount}
+                Numero de caracteres: 
               </p>
             </div>
             {/* <div className="justify-evenly">
