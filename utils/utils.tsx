@@ -94,8 +94,8 @@ export function randomString({
   });
 
   console.log("charset", charset);
-  const isOpera =
-    Object.prototype.toString.call(window.opera) == "[object Opera]";
+  // const isOpera =
+  //   Object.prototype.toString.call(window.opera) == "[object Opera]";
 
   const mapIndexed = R.addIndex(R.map);
   if (window.crypto && window.crypto.getRandomValues) {
